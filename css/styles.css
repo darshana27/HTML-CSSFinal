@@ -1,0 +1,334 @@
+/**************Landing Page Part One**************/
+nav{
+    background-color: transparent;
+}
+#logo{
+    width:270px;
+    min-width:100px;
+}
+.callUsToday span{
+    font-family:'Satisfy',sans-serif;
+}
+.input-group input{
+    width:100px;
+    border-right:none;
+}
+.input-group-append span{
+    background-color:transparent;
+    border-left:none;
+}
+.navbar-collapse ul li a{
+    font-family:'Roboto Slab',sans-serif;
+    font-size:13px;
+}
+
+.cardsSection{
+    background-image: url('../images/desert.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:15px 0 15px 0;
+    padding-bottom: 15px;
+}
+
+.downloadNowSection{
+    background:rgb(0,0,0,0.4);
+    font-family:'Roboto Slab',sans-serif;
+}
+.downloadNowSection .row img{
+    width:50px;
+    height:80px;
+}
+.downloadNowSection .row span{
+/*    font-family:'Roboto Slab',sans-serif;*/
+    font-size: 20px;
+    color:#fff;
+}
+.downloadNowSection button{
+    border:2px solid white;
+    background-color: #666666;
+    color: #fff;
+    height:45px;
+    width:120px;
+    font-size:13px;
+    border-radius:3px;
+}
+.banner{
+    padding:10vh;
+    height:auto;
+    background-image: url('../images/father-son.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .row{
+/*    margin-top:5vh;*/
+    margin-bottom: 10vh;
+/*    border:1px solid black;*/
+}
+.banner .row div .btnPlay{
+    background-color:#96B71E;
+    color:#fff;
+    width:100px;
+    height:90px;
+    opacity:0.8;
+}
+.banner .row div .btnPlay i{
+    font-size: 30px;
+}
+.banner .row div .row p{
+    font-family:'Roboto Slab';
+    font-size: 25px;
+    word-wrap: break-word;
+}
+.banner .row div .row .btnContact{
+    height:60px;
+    width:170px;
+    background-color: #96B71E;
+    color:#fff;
+    border-radius:5px;
+}
+/***************About Us Section****************/
+.AboutUs{
+    font-family:'Roboto Slab',sans-serif;
+}
+.AboutUs .row div h1{
+    font-size:35px;
+    opacity:0.9;
+}
+.AboutUs #pdesc{
+    font-size:20px;
+    opacity:0.9;
+    font-weight:300;
+}
+.AboutUs .row p{
+    font-size:14px;  
+    opacity:0.9;
+    font-weight:300;
+}
+.AboutUs .row li{
+    list-style-type: none;
+    font-size:14px;
+    font-weight:300;
+    opacity:0.9;
+}
+.AboutUs .row li span i{
+    color:#96B71E;
+}
+.AboutUs .row button{
+    height:50px;
+    width:180px;
+    background-color: #96B71E;
+    border-radius:5px;
+    color:#fff;
+    font-size:12px;
+}
+.AboutUs .girlImg{
+    height:280px;
+    width:310px;
+    min-width:100px;
+    min-height: 200px;
+    border:8px solid #CACCC4;
+}
+/***************Steps Section*****************/
+.stepsSection{
+    min-height:60vh;
+    height:auto;
+    background-image: url('../images/hbg5.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    color:#fff;
+    font-family: 'Roboto Slab',sans-serif;
+    font-weight: 300
+}
+.stepsSection .container .row1 p{
+    margin-top:90px;
+    font-size: 40px;
+}
+.stepsSection .container .row2 p{
+    font-size: 25px;
+}
+.stepsSection .container .row3 #imgNo{
+    height: 50px;
+    border:3px solid #BDEC0F;
+    border-radius:50px;
+}
+.stepsSection .container .row4 .container{
+    background-color:#fff;
+    border:2px solid #96B71E;
+    color:#000;
+    border-radius:5px;
+    visibility: hidden;
+    width:auto;
+}
+/*
+.stepsSection #imgNo:hover .row4 .container{
+    visibility: visible;
+}
+*/
+/*******************Cards Section******************/
+.cardsSection .container p{
+    font-family:'Roboto Slab',sans-serif;
+    font-size: 18px;
+}
+.cardsSection .card{
+/*    width:390px;*/
+/*    height: 520px;*/
+}
+.cardsSection .card .card-img-top{
+    width:70px;
+}
+.cardsSection .card .card-body h5{
+    opacity:0.8;
+    font-size:22px;
+}
+.cardsSection p{
+    font-family:'Roboto Slab',sans-serif;
+    opacity:0.8;
+}
+.cardsSection .card-text{
+    font-size: 14px;
+    line-height: 24px; 
+}
+.cardsSection .card-body .btn{
+    background-color:#96B71E;
+    height:50px;
+    width:150px;
+    font-size: 13px;
+}
+
+/*************Carousel Section*************/
+.carouselSection{
+    min-height: 70vh;
+    height: auto;
+    background-image: url('../images/hbg5.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.carouselSection .row p{
+    font-family: 'Roboto Slab',sans-serif;
+    color:#fff;
+    opacity:0.8;
+}
+.carouselSection .row .carouselHeading{
+    font-size:36px;
+}
+.carouselSection .carousel-inner img{
+    height:130px;
+    width:110px;
+    border:7px solid #9ABE16;
+    border-radius:50px;
+}
+.carouselSection .carousel-inner p{
+    font-size: 15px;
+    font-weight: 300;
+}
+/*******************Blogs Section**************/
+.blogSection .row .card{
+    width:auto;
+/*    min-width:200px;*/
+    border:none;  
+}
+.blogSection #blogTitle{
+    font-size:39px;
+}
+.blogSection .row .card .card-img-top{
+    width:auto;
+}
+.blogSection .row .card .card-body{
+    padding:0;
+    font-family: 'Roboto Slab',sans-serif;
+}
+.blogSection .row .card .card-title{
+    opacity:0.9;
+    font-size:15px; 
+}
+.blogSection .row .card .card-text{
+    opacity:0.8;
+    font-size:14px;
+    font-weight: 400;
+}
+.blogSection .row .card .card-body button{
+    background-color:#fff;
+    color:#9ABE16;
+    font-size: 13px;
+    width:140px;
+    height:40px;
+    border:1px solid #9ABE16;
+    border-radius:5px;
+}
+.blogSection .card:hover .card-title{
+    color:#9ABE16;
+}
+.blogSection .card:hover .card-body button{
+    background-color: #9ABE16;
+    color:#fff;
+}
+/***************Footer Section***************/
+.footerSection{
+    font-family: 'Roboto Slab',sans-serif;
+    background-color:#333333;
+    color:#fff;
+    font-weight: 300;
+    font-size: 13px;
+}
+.footerSection li{
+    list-style-type: none;
+}
+.footerSection li a{
+    color:#fff;
+    text-decoration: none;
+}
+.footerSection .row1 p{
+    font-size:16px;
+    font-weight: 300;
+    margin-top:25px;
+    opacity:0.7;
+}
+.footerSection .row2 p{
+    font-family: 'Satisfy',sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    opacity:0.8;
+}
+.footerSection .row2 .btn{
+    background-color: #9ABE16;
+    color:#fff;
+    border:none;
+    width:200px;
+    height:40px;
+    font-size:13px; 
+    margin-top: 2px;
+}
+.footerSection .rowfooter h4{
+    font-size:15px;
+}
+.footerSection .rowfooter p{
+    opacity:0.8;
+    font-size: 12px;
+}
+.footerSection .rowfooter li a{
+    font-size: 12px;
+}
+.footerSection .rowfooter li{
+    font-size: 12px;
+}
+.copyright{
+    background-color: #141414;
+    color:#fff;
+    font-weight: 300;
+    font-size: 12px;
+}
+.copyright .links span a{
+    text-decoration: none;
+    color:#fff;
+}
+.copyright .share span a{
+    color:#fff;
+    opacity:0.8;
+}
+.copyright .share span .fab{
+    font-size:20px;
+}
+.copyright .share span a:hover{
+    color:#fff;
+    opacity:1;
+}
